@@ -1,0 +1,336 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#more",
+      "menu-item#categories"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Apparel & Accessories",
+        "text": "Apparel & Accessories"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+  "menu-item#categories": {
+      "props": {
+        "id": "menu-item-custom-categories",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Categories",
+          "text": "Categories"
+        }
+      }
+    },
+    "vtex.menu@2.x:submenu#categories": {
+      "children": ["vtex.menu@2.x:menu#categories"]
+    },
+    "vtex.menu@2.x:menu#categories": {
+      "props": {
+        "items": [
+          {
+            "id": "menu-item-category-electronics",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "categoryId": 153,
+              "type": "internal",
+              "href": "/electronics/",
+              "noFollow": true,
+              "tagTitle": "Electronics",
+              "text": "Electronics"
+            }
+          },
+          {
+            "id": "menu-item-category-major-appliances",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "categoryId": "151",
+              "type": "internal",
+              "href": "/major-appliances/",
+              "noFollow": true,
+              "tagTitle": "Major Appliances",
+              "text": "Major Appliances"
+            }
+          },
+          {
+            "id": "menu-item-category-small-appliances",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "categoryId": 152,
+              "type": "internal",
+              "href": "/small-appliances",
+              "noFollow": true,
+              "tagTitle": "Small appliances",
+              "text": "Small appliances"
+            }
+          }
+        ]
+      }
+    },
+    "menu-item#category-electronics": {
+      "props": {
+        "id": "menu-item-category-electronics",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "categoryId": 153,
+          "type": "internal",
+          "href": "/electronics/",
+          "noFollow": true,
+          "tagTitle": "Electronics",
+          "text": "Electronics"
+        }
+      }
+    },
+  
+    "menu-item#category-major-appliances": {
+      "props": {
+        "id": "menu-item-category-major-appliances",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "categoryId": "151",
+          "type": "internal",
+          "href": "/major-appliances/",
+          "noFollow": true,
+          "tagTitle": "Major Appliances",
+          "text": "Major Appliances"
+        }
+      }
+    },
+    "menu-item#category-small-appliances": {
+      "props": {
+        "id": "menu-item-category-small-appliances",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "categoryId": 152,
+          "type": "internal",
+          "href": "/small-appliances",
+          "noFollow": true,
+          "tagTitle": "Small appliances",
+          "text": "Small appliances"
+        }
+      }
+    },
+    "menu-item#login": {
+      "props": {
+        "id": "menu-item-custom-login",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/account",
+          "noFollow": true,
+          "tagTitle": "My account",
+          "text": "My account"
+        }
+      }
+    }
+  
+}

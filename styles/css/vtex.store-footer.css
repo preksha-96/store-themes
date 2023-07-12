@@ -1,0 +1,24 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.vtex-store-newsletter-1-x-newsletterForm{
+  width: 50%;
+}
+.vtex-store-components-3-x-shareContainer{
+  width: 50%;
+}
