@@ -1,0 +1,27 @@
+{
+  "store.custom#table-contact": {
+    "children": [
+      "flex-layout.row#tablecontact"
+    ]
+  },
+  "flex-layout.row#tablecontact": {
+    "children": [
+      "flex-layout.col#tablecontact"
+    ]
+  },
+  "flex-layout.col#tablecontact": {
+    "children": [
+      "contactus-table",
+      "rich-text#tablecontact"
+
+    ]
+  },
+  "rich-text#tablecontact": {
+    "props": {
+      "text": "## Contact table",
+      "textColor": "c-action-primary",
+      "blockClass": "about"
+
+    }
+  }
+}
